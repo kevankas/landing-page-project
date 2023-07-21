@@ -16,6 +16,9 @@
     font-size: 24px;
     color:#F9FAF8;
     font-weight: bolder;
+    width: 200px;
+
+
 }
 ul
 {
@@ -28,7 +31,7 @@ h1
     font-weight:bolder;
     color:#F9FAF8;
     font-size: 48px;
-    max-width: 300px;
+    max-width: 360px;
 }
 .morestuff
 {
@@ -43,6 +46,7 @@ button
     width: 100px;
     height: 30px;
     font-size: 14px;
+    
 }
 .information
 {
@@ -61,4 +65,142 @@ button
 {
     background-color:#3882F6;
     color:#F9FAF8;
+    margin: 0 auto;
+    padding: 50px;
+    width:55%;
+    max-width: 1200px;
+    
+}
+body
+{
+    display:flex;
+    flex-direction: column;
+}
+.header
+{
+display:flex;
+align-items: center;
+padding-left: 300px;
+padding-right: 300px;
+
+}
+.right-header
+{
+    display:flex;
+    justify-content: flex-end;
+    width:100%;
+    flex-wrap: nowrap;
+    
+}
+
+li
+{
+    display: inline;
+    padding:0 10px;
+
+}
+.awesome
+{
+    display:flex;
+   
+    
+}
+.first
+{
+    width: 600px;
+    height: 400px;
+    padding-left: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+
+.newt
+{
+width:450px;
+height:200px;
+font-size: 18px;
+color: #E5E7EB;
+background: gray;
+display:flex;
+justify-content: center;
+    align-items: center;
+    margin: 0px 250px 0 250px;
+}
+.placeholder
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.random
+{
+    background:#ffffff;
+    height: 600px;
+}
+.information
+{
+    text-align: center;
+    margin:50px 0;
+
+}
+
+.attacking
+{
+    display:flex;
+    justify-content: center;
+    gap:30px
+}
+.box
+{
+    width: 150px;
+    height: 150px;
+    border: 5px #3882F6 solid;
+    border-radius: 25%;
+    margin-bottom: 12px;
+}
+.withme
+{
+    /* border: 3px solid red !important; */
+    width: 150px;
+    text-align: center;
+}
+.quote
+{
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+.hehe
+{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 100px auto;
+    font-size: 30px;
+    
+}
+.name
+{
+    padding-top: 20px;
+    text-align: right;
+}
+.call{
+    border: #ffffff 200px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.time{
+    border-radius: 25%;
+    
+}
+.footer
+{
+    display:flex;
+    justify-content: center;
+    height: 72px;
+    align-items: center;
 }
