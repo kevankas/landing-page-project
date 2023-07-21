@@ -1,0 +1,64 @@
+:root{
+    font-family: Helvetica, Arial, sans-serif;
+}
+.header, .footer
+{
+    background:#1F2937;
+    color:#F9FAF8;
+}
+
+.awesome
+{
+    background: #1F2937;
+}
+.top
+{
+    font-size: 24px;
+    color:#F9FAF8;
+    font-weight: bolder;
+}
+ul
+{
+    font-size: 18px;
+    color:#E5E7EB;
+    list-style-type: none;
+}
+h1
+{
+    font-weight:bolder;
+    color:#F9FAF8;
+    font-size: 48px;
+    max-width: 300px;
+}
+.morestuff
+{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+button
+{
+    background-color: #3882F6;
+    color:white;
+    border-radius: 15%;
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+}
+.information
+{
+    font-size:36px;
+    font-weight: bolder;
+}
+.quote
+{
+    background-color: #E5E7EB;
+}
+.name
+{
+    font-weight: 900;
+}
+.call
+{
+    background-color:#3882F6;
+    color:#F9FAF8;
+}
